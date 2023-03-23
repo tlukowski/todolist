@@ -2,9 +2,10 @@ import { Link } from 'react-router-dom';
 import banner from './../img/main.svg';
 
 export default function Home() {
-    return (      
+    return (
+      <div className='w-[375px] mx-auto py-16 border-4 border-black rounded-2xl mt-5'>
         <div className='flex flex-col items-center'>
-          <img src={banner} alt='' className='max-w-full px-16' loading="lazy"></img>
+          <img src={banner} alt='' className='max-w-full px-16'></img>
           <div className='mt-24'>
             <h2 class="text-2xl font-semibold text-center max-w-[240px]">Task Management & 
             To-Do List</h2>
@@ -23,6 +24,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-      
+      </div>
     )
   }
