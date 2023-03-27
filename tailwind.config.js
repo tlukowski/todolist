@@ -6,7 +6,14 @@ module.exports = {
   theme: {
     extend: {
       colors:{
-        primary:'#5F33E1'
+        primary:'#643FDB',
+        ascent:'#FF8A00',
+        neutral: '#1c1243',
+        neutral1:'#A29EB6',
+        neutral2:'#A29EB6',
+        neutral3:'#EFF1F3',
+        semantic:'#FF6A5D',
+        semantic2:'#47C272'
       },
       boxShadow:{
         'basic': 'box-shadow: 0px 4px 32px rgba(0, 0, 0, 0.04);'
